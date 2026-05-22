@@ -8,7 +8,7 @@ useEffect(()=>{
 },[])
 
 
-return <p>{message}</p>
+return <p className="font-bold bg-red-500 text-white">{message}</p>
 
 }
 
