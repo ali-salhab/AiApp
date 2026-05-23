@@ -1,21 +1,21 @@
 {
-  "name": "server",
-  "module": "index.ts",
-  "scripts": {
-    "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts "
-  },
-  "type": "module",
-  "private": true,
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/express": "^5.0.6"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  }
+   "name": "server",
+   "module": "index.ts",
+   "scripts": {
+      "start": "bun run index.ts",
+      "dev": "bun --watch run index.ts "
+   },
+   "type": "module",
+   "private": true,
+   "dependencies": {
+      "dotenv": "^17.4.2",
+      "express": "^5.2.1"
+   },
+   "devDependencies": {
+      "@types/bun": "latest",
+      "@types/express": "^5.0.6"
+   },
+   "peerDependencies": {
+      "typescript": "^5"
+   }
 }
